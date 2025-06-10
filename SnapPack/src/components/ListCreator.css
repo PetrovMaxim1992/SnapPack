@@ -13,10 +13,21 @@
 .custom-list {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .custom-list img {
 
-    width: 10em;
+    width: 2em;
     height: 4em;
+}
+
+.lists-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
