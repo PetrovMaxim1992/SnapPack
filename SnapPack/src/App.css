@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -13,8 +14,28 @@
   justify-content: center;
 }
 
-.pack {
+span {
+  font-family: 'Irish Grover', sans-serif;
+  font-size: 5em;
+}
 
+h1 {
+  font-family: 'Irish Grover', sans-serif;
+  font-size: 1em;
+}
+
+
+
+input {
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.button {
+  padding-left: 5px;
+  font-family: 'Irish Grover', sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
 
 

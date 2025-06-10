@@ -4,7 +4,7 @@ button {
     cursor: pointer;
 }
 
-button img {
-    width: 4em;
-    height: 6em;
+.campfireButton img {
+    width: 2em;
+    height: 4em;
 }

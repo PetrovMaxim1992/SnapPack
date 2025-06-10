@@ -1,14 +1,14 @@
 import {useState} from "react";
-import './HoverButton.css'
-function HoverButton() {
+import './HoverButtonCampfire.css'
+function HoverButtonCampfire() {
     const [isHovered, setIsHovered] = useState(false);
     return (
         <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
-            <img src={isHovered ? 'src/assets/PackOpen.svg' : 'src/assets/PackClose.svg'} alt="Button icon"/>
+            <img className='campfireButton' src={isHovered ? 'src/assets/campfireOn.svg' : 'src/assets/campfireOff.svg'} alt="Button icon"/>
         </button>
     );
 }
-export default HoverButton
+export default HoverButtonCampfire

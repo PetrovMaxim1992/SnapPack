@@ -1,0 +1,22 @@
+.lists-container {
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.custom-list span {
+    margin: 1em;
+    font-size: 2em;
+}
+
+.custom-list {
+    display: flex;
+    align-items: center;
+}
+
+.custom-list img {
+
+    width: 10em;
+    height: 4em;
+}
