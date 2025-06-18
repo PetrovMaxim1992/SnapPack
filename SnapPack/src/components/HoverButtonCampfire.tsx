@@ -1,5 +1,8 @@
 import {useState} from "react";
 import './HoverButtonCampfire.css'
+import CampfireOn from '../assets/campfireOn.svg?react';
+import CampfireOff from '../assets/campfireOff.svg?react';
+
 function HoverButtonCampfire() {
     const [isHovered, setIsHovered] = useState(false);
     return (
@@ -7,7 +10,7 @@ function HoverButtonCampfire() {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
-            <img className='campfireButton' src={isHovered ? 'src/assets/campfireOn.svg' : 'src/assets/campfireOff.svg'} alt="Button icon"/>
+            {isHovered ? <CampfireOn/> : <CampfireOff/>}
         </button>
     );
 }
