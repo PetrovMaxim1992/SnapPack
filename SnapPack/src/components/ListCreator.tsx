@@ -47,7 +47,7 @@ function ListCreator() {
                     onKeyDown={handleKeyPress}
                     placeholder="List name"
                 />
-                <button onClick={handleAddList}>Create new list</button>
+                <button className="controls_button" onClick={handleAddList}>Create new list</button>
             </div>
             <div className="lists-container">
                 {lists.map((item) => (

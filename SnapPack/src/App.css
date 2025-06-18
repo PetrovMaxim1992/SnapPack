@@ -14,14 +14,22 @@
   justify-content: center;
 }
 
+.header_container svg{
+  width: 5em;
+  height: 5em;
+}
+
 span {
   font-family: 'Irish Grover', sans-serif;
   font-size: 5em;
+  color: #ffffff;
+
 }
 
 h1 {
   font-family: 'Irish Grover', sans-serif;
   font-size: 1em;
+  color: #ffffff;
 }
 
 

@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="First">
+    <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="change size of campfire svg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/HoverButtonCampfire.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/HoverButtonCampfire.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/HoverButtonCampfire.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/HoverButtonCampfire.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749562920429</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change size of campfire svg">
+      <option name="closed" value="true" />
+      <created>1750259119893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750259119893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="change size of campfire svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="change size of campfire svg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

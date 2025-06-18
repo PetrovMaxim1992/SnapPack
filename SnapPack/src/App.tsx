@@ -6,7 +6,7 @@ function App() {
   return (
     <>
         <div className='header'>
-            <div>
+            <div className='header_container'>
                 <span>Snap</span>
                 <HoverButton/>
                 <span>Pack</span>
@@ -19,8 +19,5 @@ function App() {
     </>
   )
 }
-
-
-
 
 export default App

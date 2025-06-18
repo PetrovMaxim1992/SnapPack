@@ -4,7 +4,7 @@ import CampfireOn from '../assets/campfireOn.svg?react';
 import CampfireOff from '../assets/campfireOff.svg?react';
 
 function HoverButtonCampfire() {
-    const [isHovered, setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState<boolean>(false);
     return (
         <button
             onMouseEnter={() => setIsHovered(true)}

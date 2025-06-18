@@ -1,13 +1,16 @@
 import {useState} from "react";
 import './HoverButton.css'
+import PackOpen from '../assets/PackOpen.svg?react';
+import PackClose from '../assets/PackClose.svg?react';
+
 function HoverButton() {
-    const [isHovered, setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState<boolean>(false);
     return (
         <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
-            <img src={isHovered ? 'src/assets/PackOpen.svg' : 'src/assets/PackClose.svg'} alt="Button icon"/>
+            {isHovered ? <PackOpen/> : <PackClose/>}
         </button>
     );
 }
