@@ -3,8 +3,8 @@ import {useState} from "react";
 import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
 import './SubjectCreator.css';
 function SubjectCreator() {
-    const [inputSubjectValue, setInputSubjectValue] = useState(""); //состояние для введенного значения
-    const [subjects, setSubjects] = useState([]); //состояние для списка листов
+    const [inputSubjectValue, setInputSubjectValue] = useState<string>(""); //состояние для введенного значения
+    const [subjects, setSubjects] = useState<string[]>([]); //состояние для списка листов
 
     //-------- Добавление нового list
     const handleAddSubj = () => {
@@ -14,8 +14,8 @@ function SubjectCreator() {
     };
 
     //--------- Удаление list по индексу
-    const removeSubj = (indexToRemove) => {
-        const newSubjects = subjects.filter((item, currentIndex) => {
+    const removeSubj = (indexToRemove:number) => {
+        const newSubjects = subjects.filter((item:string, currentIndex) => {
             return currentIndex !== indexToRemove;
         });
         setLists(newSubjects);

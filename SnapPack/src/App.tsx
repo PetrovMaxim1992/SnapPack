@@ -16,8 +16,6 @@ function App() {
         <div className='listField'>
             <ListCreator/>
         </div>
-
-
     </>
   )
 }
