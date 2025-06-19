@@ -5,12 +5,12 @@
     flex-direction: row;
     width: 100%;
     padding: 0;
-    margin: 5px;
 }
 
 .custom-subject-list span {
-    margin: 5px;
-    font-size: 1.5em;
+    line-height: 1em;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ffffff;
 }
 
 .subjects-container {

@@ -10,7 +10,6 @@ function App() {
             <div className='header_container'>
                 <span>Snap</span>
                 <HoverButton/>
-
                 <span>Pack</span>
             </div>
             <h1>Pack your backpack easily</h1>
