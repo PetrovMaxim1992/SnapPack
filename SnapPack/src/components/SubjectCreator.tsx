@@ -11,7 +11,7 @@ function SubjectCreator() {
     const [inputSubjectValue, setInputSubjectValue] = useState<string>(""); //состояние для введенного значения
     const [subjects, setSubjects] = useState<SubjItem[]>([]); //состояние для списка листов
 
-    //-------- Добавление нового list
+    //-------- Добавление нового subj
     const handleAddSubj = () => {
         if (!inputSubjectValue.trim()) return; // удаляем пустые значения в начале и конце строки, если после этого строка осталась пустой функция завершается
         setSubjects([ //обновляем состояние,добавляя новый элемент 'inputValue'

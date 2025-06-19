@@ -1,17 +1,27 @@
 import {useState} from "react";
 import './ListCreator.css';
-import HoverButton from "./HoverButton.tsx";
 import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
 import SubjectCreator from './SubjectCreator.tsx';
+import HoverButton from "./HoverButton.tsx";
+
 
 interface ListItem {
     id: string;
     text: string;
+    subj?: any[];
 }
+
+interface CartListItem {
+    id: string;
+    text: string;
+    subj?: any[];
+}
+
 
 function ListCreator() {
     const [inputValue, setInputValue] = useState<string>(""); //состояние для введенного значения
     const [lists, setLists] = useState<ListItem[]>([]); //состояние для списка листов
+    const [cartLists, setCartLists] = useState<CartListItem[]>([]); //состояние для списка листов
 
     //-------- Добавление нового list
     const handleAddList = () => {
@@ -24,12 +34,29 @@ function ListCreator() {
                 }
     ]);
         setInputValue(""); // Очищаем поле ввода (обнуляем состояние)
+
     };
+    console.log(lists)
 
     //--------- Удаление list по индексу
     const removeList = (idToRemove: string) => {
         setLists(lists.filter(item => item.id !== idToRemove));
     };
+
+    //--------- добавление list в корзину
+    const CartAddList = (idToAdd: string) => {
+        // Находим элемент, который нужно переместить
+        const itemToAdd = lists.find(item => item.id === idToAdd);
+
+        if (itemToAdd) {
+            // Удаляем элемент из lists
+            setLists(prevLists => prevLists.filter(item => item.id !== idToAdd));
+
+            // Добавляем элемент в cartLists
+            setCartLists(prevCartLists => [...prevCartLists, itemToAdd]);
+        }
+    };
+    console.log(cartLists)
 
     //---------- Обработка нажатия Enter
     const handleKeyPress = (e:any) => {
@@ -56,8 +83,9 @@ function ListCreator() {
                             <span>{item.text}</span>
                             <div className='buttons-container'>
                                 <div
-                                    className = 'add-btn'>
-                                <HoverButton/>
+                                    onClick={() => CartAddList(item.id)}
+                                    className="delete-btn">
+                                    <HoverButton/>
                                 </div>
                                 <div
                                     onClick={() => removeList(item.id)}

@@ -2,6 +2,19 @@
     border: 1px solid #ffffff;
     color: #ffffff;
     border-radius: 5px;
+    font-family: 'Irish Grover', sans-serif;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.controls input {
+    margin: 10px ;
+
 }
 
 .lists-container {
@@ -11,9 +24,13 @@
     flex-wrap: wrap;
 }
 
+.lists-container input{
+    margin: 0 auto;
+}
+
 .custom-list span {
     margin: 1em;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .custom-list {
