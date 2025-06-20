@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import './ListCreator.css';
 import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
 import SubjectCreator from './SubjectCreator.tsx';
@@ -8,13 +8,13 @@ import HoverButton from "./HoverButton.tsx";
 interface ListItem {
     id: string;
     text: string;
-    subj?: any[];
+    subj?: string[];
 }
 
 interface CartListItem {
     id: string;
     text: string;
-    subj?: any[];
+    subj?: string[];
 }
 
 
@@ -22,6 +22,19 @@ function ListCreator() {
     const [inputValue, setInputValue] = useState<string>(""); //состояние для введенного значения
     const [lists, setLists] = useState<ListItem[]>([]); //состояние для списка листов
     const [cartLists, setCartLists] = useState<CartListItem[]>([]); //состояние для списка листов
+
+        document.documentElement.style.setProperty(
+            '--cart-items-count',
+            `"${cartLists.length}"`
+        );
+
+    useEffect(() => {
+        console.log('Cart updated:', cartLists.length); // Проверка в консоли
+        document.documentElement.style.setProperty(
+            '--cart-items-count',
+            `"${cartLists.length}"`
+        );
+    }, [cartLists]);
 
     //-------- Добавление нового list
     const handleAddList = () => {
@@ -45,6 +58,7 @@ function ListCreator() {
 
     //--------- добавление list в корзину
     const CartAddList = (idToAdd: string) => {
+
         // Находим элемент, который нужно переместить
         const itemToAdd = lists.find(item => item.id === idToAdd);
 
@@ -84,7 +98,7 @@ function ListCreator() {
                             <div className='buttons-container'>
                                 <div
                                     onClick={() => CartAddList(item.id)}
-                                    className="delete-btn">
+                                    className="btn">
                                     <HoverButton/>
                                 </div>
                                 <div

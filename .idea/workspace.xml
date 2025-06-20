@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="First">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +123,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ed5ec65e-7274-4e7a-885c-3b4160fdf05d" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="ed5ec65e-7274-4e7a-885c-3b4160fdf05d">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
