@@ -1,0 +1,191 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3faddc41-7d03-41ec-842c-9ac44a06b239\" name=\"Changes\" comment=\"The final version of the application\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"TypeScript JSX File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"svgr\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"HARD\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;PetrovMaxim1992&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/PetrovMaxim1992/SnapPack.git&quot;,\r\n    &quot;accountId&quot;: &quot;77c7621e-5cd5-4a58-8171-ded3cfa2167f&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2yGkneZWAHqQZJvzOip9igByzRE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"svgr\",\r\n    \"js.last.introduce.type\": \"LET\",\r\n    \"last_opened_file_path\": \"C:/Users/MAX/Desktop/SnapPack/SnapPack/src/assets\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"ts.external.directory.path\": \"C:\\\\Users\\\\MAX\\\\Desktop\\\\SnapPack\\\\SnapPack\\\\node_modules\\\\typescript\\\\lib\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\MAX\\Desktop\\SnapPack\\SnapPack\\src\\assets\" />\r\n      <recent name=\"C:\\Users\\MAX\\Desktop\\SnapPack\\SnapPack\\public\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3faddc41-7d03-41ec-842c-9ac44a06b239\" name=\"Changes\" comment=\"\" />\r\n      <created>1749468466541</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1749468466541</updated>\r\n      <workItem from=\"1749468467676\" duration=\"7649000\" />\r\n      <workItem from=\"1749534738694\" duration=\"17013000\" />\r\n      <workItem from=\"1750241293177\" duration=\"4577000\" />\r\n      <workItem from=\"1750744646219\" duration=\"8149000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"First\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749535464306</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749535464306</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"First\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749546055951</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749546055951</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"First\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1749562920429</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1749562920429</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"pack counter is working\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1750416171304</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1750416171304</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"pack counter is working\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1750416212938</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1750416212938</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"The final version of the application\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1750769134923</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1750769134923</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"ed5ec65e-7274-4e7a-885c-3b4160fdf05d\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"svgr\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"ed5ec65e-7274-4e7a-885c-3b4160fdf05d\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"First\" />\r\n    <MESSAGE value=\"pack counter is working\" />\r\n    <MESSAGE value=\"The final version of the application\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"The final version of the application\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/SnapPack/src/main.tsx</url>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/SnapPack/eslint.config.js</url>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cbf546753fd909208326087fc5dc8955ba0d40c7)
++++ b/.idea/workspace.xml	(date 1750769895827)
+@@ -4,8 +4,22 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="The final version of the application">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="First">
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/SnapPack.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SnapPack/public/vite.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SnapPack/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/vite.config.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,19 +29,13 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="CSS File" />
+         <option value="TypeScript JSX File" />
++        <option value="CSS File" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="svgr" />
+-      </map>
+-    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-    <option name="RESET_MODE" value="HARD" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {
+@@ -41,9 +49,6 @@
+     &quot;accountId&quot;: &quot;77c7621e-5cd5-4a58-8171-ded3cfa2167f&quot;
+   }
+ }</component>
+-  <component name="ProblemsViewState">
+-    <option name="selectedTabId" value="CurrentFile" />
+-  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 2
+ }</component>
+@@ -53,24 +58,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "svgr",
+-    "js.last.introduce.type": "LET",
+-    "last_opened_file_path": "C:/Users/MAX/Desktop/SnapPack/SnapPack/src/assets",
+-    "list.type.of.created.stylesheet": "CSS",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "ts.external.directory.path": "C:\\Users\\MAX\\Desktop\\SnapPack\\SnapPack\\node_modules\\typescript\\lib",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/MAX/Desktop/SnapPack/SnapPack/src/assets&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\MAX\\Desktop\\SnapPack\\SnapPack\\node_modules\\typescript\\lib&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\MAX\Desktop\SnapPack\SnapPack\src\assets" />
+@@ -95,7 +98,6 @@
+       <workItem from="1749468467676" duration="7649000" />
+       <workItem from="1749534738694" duration="17013000" />
+       <workItem from="1750241293177" duration="4577000" />
+-      <workItem from="1750744646219" duration="8149000" />
+     </task>
+     <task id="LOCAL-00001" summary="First">
+       <option name="closed" value="true" />
+@@ -121,74 +123,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1749562920429</updated>
+     </task>
+-    <task id="LOCAL-00004" summary="pack counter is working">
+-      <option name="closed" value="true" />
+-      <created>1750416171304</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1750416171304</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="pack counter is working">
+-      <option name="closed" value="true" />
+-      <created>1750416212938</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1750416212938</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="The final version of the application">
+-      <option name="closed" value="true" />
+-      <created>1750769134923</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1750769134923</updated>
+-    </task>
+-    <option name="localTasksCounter" value="7" />
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="OPEN_GENERIC_TABS">
+-      <map>
+-        <entry key="ed5ec65e-7274-4e7a-885c-3b4160fdf05d" value="TOOL_WINDOW" />
+-      </map>
+-    </option>
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="svgr" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-        <entry key="ed5ec65e-7274-4e7a-885c-3b4160fdf05d">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="First" />
+-    <MESSAGE value="pack counter is working" />
+-    <MESSAGE value="The final version of the application" />
+-    <option name="LAST_COMMIT_MESSAGE" value="The final version of the application" />
++    <option name="LAST_COMMIT_MESSAGE" value="First" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

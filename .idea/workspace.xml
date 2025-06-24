@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="pack counter is working">
-      <change afterPath="$PROJECT_DIR$/SnapPack/src/components/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.css" afterDir="false" />
+    <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="First">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SnapPack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/public/vite.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SnapPack/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,19 +29,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="svgr" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -46,9 +49,6 @@
     &quot;accountId&quot;: &quot;77c7621e-5cd5-4a58-8171-ded3cfa2167f&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -62,8 +62,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;svgr&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/MAX/Desktop/SnapPack/SnapPack/src/assets&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -99,7 +98,6 @@
       <workItem from="1749468467676" duration="7649000" />
       <workItem from="1749534738694" duration="17013000" />
       <workItem from="1750241293177" duration="4577000" />
-      <workItem from="1750744646219" duration="7479000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -125,65 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749562920429</updated>
     </task>
-    <task id="LOCAL-00004" summary="pack counter is working">
-      <option name="closed" value="true" />
-      <created>1750416171304</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1750416171304</updated>
-    </task>
-    <task id="LOCAL-00005" summary="pack counter is working">
-      <option name="closed" value="true" />
-      <created>1750416212938</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1750416212938</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="ed5ec65e-7274-4e7a-885c-3b4160fdf05d" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="svgr" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-        <entry key="ed5ec65e-7274-4e7a-885c-3b4160fdf05d">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <MESSAGE value="pack counter is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="pack counter is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
