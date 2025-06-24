@@ -3,7 +3,7 @@ import './HoverButton.css'
 import PackOpen from '../assets/PackOpen.svg?react';
 import PackClose from '../assets/PackClose.svg?react';
 
-function HoverButton() {
+const HoverButton = () => {
     const [isHovered, setIsHovered] = useState<boolean>(false);
     return (
         <button

@@ -4,7 +4,6 @@ import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
 import SubjectCreator from './SubjectCreator.tsx';
 import HoverButton from "./HoverButton.tsx";
 
-
 interface ListItem {
     id: string;
     text: string;
@@ -17,67 +16,53 @@ interface CartListItem {
     subj?: string[];
 }
 
+interface ListCreatorProps {
+    cartItems: CartListItem[];
+    setCartItems: (items: CartListItem[]) => void;
+}
 
-function ListCreator() {
-    const [inputValue, setInputValue] = useState<string>(""); //состояние для введенного значения
-    const [lists, setLists] = useState<ListItem[]>([]); //состояние для списка листов
-    const [cartLists, setCartLists] = useState<CartListItem[]>([]); //состояние для списка листов
-
-        document.documentElement.style.setProperty(
-            '--cart-items-count',
-            `"${cartLists.length}"`
-        );
+const ListCreator = ({ cartItems, setCartItems }: ListCreatorProps) => {
+    const [inputValue, setInputValue] = useState<string>("");
+    const [lists, setLists] = useState<ListItem[]>([]);
 
     useEffect(() => {
-        console.log('Cart updated:', cartLists.length); // Проверка в консоли
+        console.log('Cart updated:', cartItems.length);
         document.documentElement.style.setProperty(
             '--cart-items-count',
-            `"${cartLists.length}"`
+            `"${cartItems.length}"`
         );
-    }, [cartLists]);
+    }, [cartItems]);
 
-    //-------- Добавление нового list
     const handleAddList = () => {
-        if (!inputValue.trim()) return; // удаляем пустые значения в начале и конце строки, если после этого строка осталась пустой функция завершается
-        setLists([ //обновляем состояние,добавляя новый элемент 'inputValue'
+        if (!inputValue.trim()) return;
+        setLists([
             ...lists,
-                {
-                    id: Date.now().toString(), // Генерируем уникальный ID
-                    text: inputValue
-                }
-    ]);
-        setInputValue(""); // Очищаем поле ввода (обнуляем состояние)
-
+            {
+                id: Date.now().toString(),
+                text: inputValue
+            }
+        ]);
+        setInputValue("");
     };
-    console.log(lists)
 
-    //--------- Удаление list по индексу
     const removeList = (idToRemove: string) => {
         setLists(lists.filter(item => item.id !== idToRemove));
     };
 
-    //--------- добавление list в корзину
     const CartAddList = (idToAdd: string) => {
-
-        // Находим элемент, который нужно переместить
         const itemToAdd = lists.find(item => item.id === idToAdd);
-
         if (itemToAdd) {
-            // Удаляем элемент из lists
             setLists(prevLists => prevLists.filter(item => item.id !== idToAdd));
-
-            // Добавляем элемент в cartLists
-            setCartLists(prevCartLists => [...prevCartLists, itemToAdd]);
+            setCartItems([...cartItems, itemToAdd]);
         }
     };
-    console.log(cartLists)
 
-    //---------- Обработка нажатия Enter
     const handleKeyPress = (e:any) => {
         if (e.key === "Enter") {
             handleAddList();
         }
     };
+
     return (
         <div className="div-creator">
             <div className="controls">
@@ -96,24 +81,22 @@ function ListCreator() {
                         <div className="lists-input-container">
                             <span>{item.text}</span>
                             <div className='buttons-container'>
-                                <div
-                                    onClick={() => CartAddList(item.id)}
-                                    className="btn">
+                                <div onClick={() => CartAddList(item.id)} className="btn">
                                     <HoverButton/>
                                 </div>
-                                <div
-                                    onClick={() => removeList(item.id)}
-                                    className="delete-btn">
+                                <div onClick={() => removeList(item.id)} className="delete-btn">
                                     <HoverButtonCampfire/>
                                 </div>
                             </div>
                         </div>
-                        <div><SubjectCreator/></div>
+                        <div>
+                            <SubjectCreator/>
+                        </div>
                     </div>
                 ))}
             </div>
         </div>
     );
-}
+};
 
 export default ListCreator;
