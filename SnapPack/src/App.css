@@ -114,6 +114,9 @@ input {
 }
 
 .cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Irish Grover', sans-serif;
   font-size: 1em;
   padding: 8px 12px;
@@ -128,4 +131,8 @@ input {
   color: #666;
   font-style: italic;
   padding: 8px 0;
+}
+
+.delete-btn {
+  width: 50px;
 }

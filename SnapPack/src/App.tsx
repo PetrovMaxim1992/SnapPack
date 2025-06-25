@@ -45,7 +45,6 @@ const App = () => {
                 onClose={() => setIsModalOpen(false)}
             >
                 <h2 className = "cart-items-container">List of Lists</h2>
-                {/*<p>Your lists are stacked here</p>*/}
                 <div className="cart-items-container">
                     {cartItems.length > 0 ? (
                         cartItems.map(item => (
