@@ -38,6 +38,7 @@
 .custom-list span {
     margin: 1em;
     font-size: 3em;
+    max-width: 300px;
 }
 
 .custom-list {
@@ -48,6 +49,7 @@
     border-radius: 10px;
     margin: 10px;
     background-color: #353535;
+    max-width: 500px;
 }
 
 .custom-list img {
