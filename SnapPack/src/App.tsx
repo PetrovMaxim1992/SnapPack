@@ -26,7 +26,7 @@ const App = () => {
                 <div className='header_container'>
                     <span>Snap</span>
                     <div className="button-wrapper" onClick={() => setIsModalOpen(true)}>
-                        <HoverButton />
+                        <HoverButton/>
                     </div>
                     <span>Pack</span>
                 </div>
@@ -44,7 +44,7 @@ const App = () => {
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
             >
-                <h2 className = "cart-items-container">List of Lists</h2>
+                <h2 className="cart-items-container">List of Lists</h2>
                 <div className="cart-items-container">
                     {cartItems.length > 0 ? (
                         cartItems.map(item => (
@@ -60,6 +60,7 @@ const App = () => {
                     )}
                 </div>
             </Modal>
+
         </>
     )
 }
