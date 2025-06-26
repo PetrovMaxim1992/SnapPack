@@ -20,11 +20,16 @@
 }
 
 .controls button {
-    font-family: 'Irish Grover', sans-serif;
+    font-family: 'Lobster-Regular', sans-serif;
+    border: 1px solid #666666;
+    color: #666666;
+    border-radius: 5px;
+}
+
+.controls button:hover {
     border: 1px solid #ffffff;
     color: #ffffff;
     border-radius: 5px;
-    margin-left: 10px;
 }
 
 .controls input {

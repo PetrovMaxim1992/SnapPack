@@ -48,14 +48,14 @@
 
 
 span {
-  font-family: 'Irish Grover', sans-serif;
+  font-family: 'Lobster-Regular', sans-serif;
   font-size: 5em;
   color: #ffffff;
 
 }
 
 h1 {
-  font-family: 'Irish Grover', sans-serif;
+  font-family: 'Lobster-Regular', sans-serif;
   font-size: 1em;
   color: #ffffff;
 }
@@ -65,7 +65,7 @@ h1 {
 input {
   margin-top: 100px;
   border-radius: 5px;
-  font-family: 'Irish Grover', sans-serif;
+  font-family: 'Lobster-Regular', sans-serif;
 }
 
 .button-wrapper {
@@ -114,7 +114,7 @@ input {
   flex-direction: column;
   gap: 10px;
   margin-top: 15px;
-  font-family: 'Irish Grover', sans-serif;
+  font-family: 'Lobster-Regular', sans-serif;
   font-size: 2em;
 
 }
@@ -123,7 +123,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Irish Grover', sans-serif;
+  font-family: 'Lobster-Regular', sans-serif;
   font-size: 1em;
   padding: 8px 12px;
   background-color: #666666;
@@ -132,7 +132,7 @@ input {
 }
 
 .empty-cart {
-  font-family: 'Irish Grover', sans-serif;
+  font-family: 'Lobster-Regular', sans-serif;
   font-size: 1em;
   color: #666;
   font-style: italic;

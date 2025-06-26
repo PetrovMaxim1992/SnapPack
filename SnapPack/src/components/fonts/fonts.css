@@ -3,3 +3,8 @@
     src: url('IrishGrover-Regular.woff2') format('woff2'),
     url('IrishGrover-Regular.woff') format('woff');
 }
+@font-face {
+    font-family: Lobster-Regular;
+    src: url('Lobster-Regular.woff2') format('woff2'),
+    url('Lobster-Regular.woff') format('woff');
+}

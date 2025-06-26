@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3faddc41-7d03-41ec-842c-9ac44a06b239" name="Changes" comment="The final version of the application">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_06_2025_8_14_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_06_2025_8_14__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnapPack/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapPack/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/HoverButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/ListCreator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/SubjectCreator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/components/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/components/fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapPack/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/SnapPack/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +93,8 @@
       <workItem from="1749534738694" duration="17013000" />
       <workItem from="1750241293177" duration="4577000" />
       <workItem from="1750847806228" duration="7103000" />
-      <workItem from="1750911742074" duration="6105000" />
+      <workItem from="1750911742074" duration="8957000" />
+      <workItem from="1750934654977" duration="2680000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -153,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750915534778</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="The final version of the application">
+      <option name="closed" value="true" />
+      <created>1750920487401</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750920487401</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

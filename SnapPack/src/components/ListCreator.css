@@ -1,9 +1,16 @@
 .controls_button {
+    border: 1px solid #666666;
+    color: #666666;
+    border-radius: 5px;
+}
+
+.controls_button:hover {
     border: 1px solid #ffffff;
     color: #ffffff;
     border-radius: 5px;
-    font-family: 'Irish Grover', sans-serif;
 }
+
+
 .controls {
     display: flex;
     justify-content: center;
