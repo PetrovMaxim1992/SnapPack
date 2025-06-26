@@ -68,6 +68,12 @@ input {
   font-family: 'Irish Grover', sans-serif;
 }
 
+.button-wrapper {
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: inline-block;
+}
 
 /*-----------------Модалка*/
 
@@ -81,7 +87,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .modal-content {

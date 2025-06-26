@@ -25,7 +25,7 @@ const App = () => {
             <div className='header'>
                 <div className='header_container'>
                     <span>Snap</span>
-                    <div onClick={() => setIsModalOpen(true)} style={{ display: 'contents' }}>
+                    <div className="button-wrapper" onClick={() => setIsModalOpen(true)}>
                         <HoverButton />
                     </div>
                     <span>Pack</span>
