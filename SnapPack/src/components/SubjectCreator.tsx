@@ -1,4 +1,5 @@
 import {useState} from "react";
+import React from "react";
 
 interface SubjItem{
     id: string;
@@ -30,7 +31,7 @@ function SubjectCreator() {
     };
 
     //---------- Обработка нажатия Enter
-    const handleKeySubjPress = (e:any) => {
+    const handleKeySubjPress = (e:React.KeyboardEvent<HTMLInputElement>):void => {
         if (e.key === "Enter") {
             handleAddSubj();
         }

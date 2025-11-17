@@ -3,6 +3,7 @@ import './ListCreator.css';
 import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
 import SubjectCreator from './SubjectCreator.tsx';
 import HoverButton from "./HoverButton.tsx";
+import React from "react";
 
 interface ListItem {
     id: string;
@@ -57,7 +58,7 @@ const ListCreator = ({ cartItems, setCartItems }: ListCreatorProps) => {
         }
     };
 
-    const handleKeyPress = (e:any) => {
+    const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>): void => {
         if (e.key === "Enter") {
             handleAddList();
         }
