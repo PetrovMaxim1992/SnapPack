@@ -39,7 +39,6 @@ const App = () => {
                     setCartItems={setCartItems}
                 />
             </div>
-
             <Modal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}

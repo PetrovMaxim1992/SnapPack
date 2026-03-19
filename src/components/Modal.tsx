@@ -5,9 +5,6 @@ interface ModalProps {
     onClose: () => void;
     children?: React.ReactNode;
 }
-
-
-
 const Modal = ({ isOpen, onClose, children }: ModalProps) => {
     useEffect(() => {
         if (isOpen) {
