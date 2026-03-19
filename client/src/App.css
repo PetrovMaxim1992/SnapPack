@@ -57,12 +57,17 @@ h1 {
   color: #ffffff;
 }
 
-
-
-input {
-  margin-top: 100px;
-  border-radius: 5px;
+.logout-btn {
   font-family: 'Lobster-Regular', sans-serif;
+  border: 1px solid #AAAAAA;
+  color: #AAAAAA;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
 }
 
 .button-wrapper {
@@ -88,7 +93,7 @@ input {
 }
 
 .modal-content {
-  background: #304960;
+  background: #5a5a5a;
   padding: 2rem;
   border-radius: 8px;
   width: 90%;

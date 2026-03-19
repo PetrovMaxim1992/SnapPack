@@ -1,44 +1,45 @@
-import {useState} from "react";
+import { useState } from "react";
 import React from "react";
+import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
+import './SubjectCreator.css';
 
-interface SubjItem{
+interface SubjItem {
     id: string;
     text: string;
 }
 
-import HoverButtonCampfire from "./HoverButtonCampfire.tsx";
-import './SubjectCreator.css';
-function SubjectCreator() {
-    const [inputSubjectValue, setInputSubjectValue] = useState<string>(""); //состояние для введенного значения
-    const [subjects, setSubjects] = useState<SubjItem[]>([]); //состояние для списка листов
+interface SubjectCreatorProps {
+    listId?: string; // делаем опциональным, так как может не использоваться
+    subjects: SubjItem[];
+    onUpdateSubjects: (subjects: SubjItem[]) => void;
+}
 
-    //-------- Добавление нового subj
+function SubjectCreator({ subjects, onUpdateSubjects }: SubjectCreatorProps) {
+    const [inputSubjectValue, setInputSubjectValue] = useState<string>("");
+
     const handleAddSubj = () => {
-        if (!inputSubjectValue.trim()) return; // удаляем пустые значения в начале и конце строки, если после этого строка осталась пустой функция завершается
-        setSubjects([ //обновляем состояние,добавляя новый элемент 'inputValue'
-            ...subjects,
-            {
-                id: Date.now().toString(), // Генерируем уникальный ID
-                text: inputSubjectValue
-            }
-        ]);
-        setInputSubjectValue(""); // Очищаем поле ввода (обнуляем состояние)
+        if (!inputSubjectValue.trim()) return;
+
+        const newSubject: SubjItem = {
+            id: Date.now().toString(),
+            text: inputSubjectValue
+        };
+
+        onUpdateSubjects([...subjects, newSubject]);
+        setInputSubjectValue("");
     };
 
-    //--------- Удаление subj по индексу
     const removeSubj = (idToRemove: string) => {
-        setSubjects(subjects.filter(item => item.id !== idToRemove));
+        onUpdateSubjects(subjects.filter(item => item.id !== idToRemove));
     };
 
-    //---------- Обработка нажатия Enter
-    const handleKeySubjPress = (e:React.KeyboardEvent<HTMLInputElement>):void => {
+    const handleKeySubjPress = (e: React.KeyboardEvent<HTMLInputElement>): void => {
         if (e.key === "Enter") {
             handleAddSubj();
         }
     };
 
     return (
-
         <div className="div-creator">
             <div className="controls">
                 <input
@@ -66,7 +67,6 @@ function SubjectCreator() {
                 ))}
             </div>
         </div>
-
     );
 }
 

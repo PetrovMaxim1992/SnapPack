@@ -5,26 +5,33 @@ import SubjectCreator from './SubjectCreator.tsx';
 import HoverButton from "./HoverButton.tsx";
 import React from "react";
 
+interface SubjItem {
+    id: string;
+    text: string;
+}
+
 interface ListItem {
     id: string;
     text: string;
-    subj?: string[];
+    subj?: SubjItem[];
 }
 
 interface CartListItem {
     id: string;
     text: string;
-    subj?: string[];
+    subj?: SubjItem[];
 }
 
 interface ListCreatorProps {
+    lists: ListItem[];
+    setLists: (items: ListItem[]) => void;
     cartItems: CartListItem[];
-    setCartItems: (items: CartListItem[]) => void;
+    onAddToCart: (id: string) => void;
+    // setCartItems не нужен, так как не используется
 }
 
-const ListCreator = ({ cartItems, setCartItems }: ListCreatorProps) => {
+const ListCreator = ({ lists, setLists, cartItems, onAddToCart }: ListCreatorProps) => {
     const [inputValue, setInputValue] = useState<string>("");
-    const [lists, setLists] = useState<ListItem[]>([]);
 
     useEffect(() => {
         console.log('Cart updated:', cartItems.length);
@@ -36,29 +43,30 @@ const ListCreator = ({ cartItems, setCartItems }: ListCreatorProps) => {
 
     const handleAddList = () => {
         if (!inputValue.trim()) return;
+
         const newId = Date.now().toString();
-        setLists([
-            ...lists,
-            {
-                id: newId,
-                text: inputValue
-            }
-        ]);
+        const newList: ListItem = {
+            id: newId,
+            text: inputValue,
+            subj: []
+        };
+
+        setLists([...lists, newList]);
         localStorage.setItem(newId, inputValue);
         setInputValue("");
+    };
+
+    const updateListSubjects = (listId: string, newSubjects: SubjItem[]) => {
+        setLists(lists.map(list =>
+            list.id === listId
+                ? { ...list, subj: newSubjects }
+                : list
+        ));
     };
 
     const removeList = (idToRemove: string) => {
         setLists(lists.filter(item => item.id !== idToRemove));
         localStorage.removeItem(idToRemove);
-    };
-
-    const CartAddList = (idToAdd: string) => {
-        const itemToAdd = lists.find(item => item.id === idToAdd);
-        if (itemToAdd) {
-            setLists(prevLists => prevLists.filter(item => item.id !== idToAdd));
-            setCartItems([...cartItems, itemToAdd]);
-        }
     };
 
     const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>): void => {
@@ -85,7 +93,7 @@ const ListCreator = ({ cartItems, setCartItems }: ListCreatorProps) => {
                         <div className="lists-input-container">
                             <span>{item.text}</span>
                             <div className='buttons-container'>
-                                <div onClick={() => CartAddList(item.id)} className="btn">
+                                <div onClick={() => onAddToCart(item.id)} className="btn">
                                     <HoverButton/>
                                 </div>
                                 <div onClick={() => removeList(item.id)} className="delete-btn">
@@ -94,7 +102,10 @@ const ListCreator = ({ cartItems, setCartItems }: ListCreatorProps) => {
                             </div>
                         </div>
                         <div>
-                            <SubjectCreator/>
+                            <SubjectCreator
+                                subjects={item.subj || []}
+                                onUpdateSubjects={(newSubjects) => updateListSubjects(item.id, newSubjects)}
+                            />
                         </div>
                     </div>
                 ))}

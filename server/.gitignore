@@ -1,0 +1,5 @@
+# Зависимости бэкенда
+node_modules/
+.env
+logs/
+*.log

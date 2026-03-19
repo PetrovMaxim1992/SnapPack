@@ -1,0 +1,4 @@
+# Общие зависимости
+node_modules/
+dist/
+.env
